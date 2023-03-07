@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Enter Number: ");
         int number = input.nextInt();
         int size = 0;
+        int size2 = 0;
         int count = number;
         while (count > 0) {
             count /= 10;
