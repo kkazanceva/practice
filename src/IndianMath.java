@@ -1,12 +1,11 @@
 import java.util.Scanner;
-import java.util.Arrays;
-public class Main {
+
+public class IndianMath {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Number: ");
         int number = input.nextInt();
         int size = 0;
-        int size2 = 0;
         int count = number;
         while (count > 0) {
             count /= 10;
